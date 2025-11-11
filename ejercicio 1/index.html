@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+    <h1>Encuesta de intereses de desarrollo web</h1>
+    <p>Vota por el área que más te interesa:</p>
+
+    <div>
+        <h2>Diseño Web</h2>
+        <p>Votos: <span id="votosDiseño">0</span></p>
+        <button onclick="votar('diseño')">Votar por Diseño Web</button>
+    </div>
+    <div>
+        <h2>JavaScript</h2>
+        <p>Votos: <span id="votosJavascript">0</span></p>
+        <button onclick="votar('javascript')">Votar por JavaScript</button>
+    </div>
+    <div>
+        <h2>Bases de Datos</h2>
+        <p>Votos: <span id="votosBasesDeDatos">0</span></p>
+        <button onclick="votar('basesdedatos')">Votar por Bases De Datos</button>
+    </div>
+
+    <h3>Total Globsl de Votos</h3>
+    <p>Total: <span id="totalVotos">0</span></p>
+
+    <script src="ejercicio1.js"></script>
+</body>
+</html>
