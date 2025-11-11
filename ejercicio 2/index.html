@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+
+    <div>
+        <div>
+            <h3>Agenda Anual</h3>
+            <p>Precio: $<span class="precio">18.50</span></p>
+            <button onclick="addToCart('Agenda Anual', 18.50)">Agregar al carrito</button>
+        </div>
+
+        <div>
+            <h3>Bolígrafos (Set de 5)</h3>
+            <p>Precio: $<span class="precio">10.00</span></p>
+            <button onclick="addToCart('Bolígrafos (Set de 5)', 10.00)">Agregar al carrito</button>
+        </div>
+
+        <div>
+            <h3>Calculadora Científica</h3>
+            <p>Precio: $<span class="precio">22.50</span></p>
+            <button onclick="addToCart('Calculadora Científica', 22.50)">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Resumen</h2>
+        <p>Items totales: <span id="total-items">0</span></p>
+        <p>Precio total: $<span id="total-precio">0.00</span></p>
+        <button onclick="clearCart()">Vaciar carrito</button>
+    </div>
+
+    <script src="ejercicio2.js"></script>
+    
+</body>
+</html>
